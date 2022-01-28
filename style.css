@@ -1,0 +1,126 @@
+body {
+  background-image: url(images/pattern-background-mobile.svg);
+  background-size: cover;
+  font-family: 'Red Hat Display', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 5% 5%;
+}
+
+.card-container {
+  border-radius: 18px;
+  background-color: white;
+  box-shadow: 1px 20px 30px 1px hsl(227, 26%, 83%);
+}
+
+.img-top {
+  object-fit: cover;
+  width: 100%;
+  border-radius: 18px 18px 0 0;
+}
+
+h1 {
+  text-align: center;
+  color: hsl(223, 47%, 23%);
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: 900;
+  font-size: 1.5rem;
+  padding-top: 4%;
+}
+
+p {
+  text-align: center;
+  line-height: 25px;
+  padding: 0 12% 3%;
+  font-weight: 500;
+  color: hsl(224, 23%, 55%);
+}
+
+main {
+  padding: 4% 4%;
+  width: 80%;
+  background-color: hsl(225, 100%, 98%);
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 10px;
+}
+
+.wrapper-annual {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.pricing-plan {
+  padding-left: 25px;
+  padding-top: 3px;
+  color: hsl(223, 47%, 23%);
+  font-weight: 900;
+}
+
+.annual-price {
+  color: hsl(224, 23%, 55%);
+  font-weight: 500;
+}
+
+.change-link {
+  padding-top: 10px;
+}
+.change-link a {
+  font-weight: 700;
+  font-size: 15px;
+  transition: 0.8s;
+}
+
+footer {
+  padding: 7% 0;
+  width: 87%;
+  margin: 0 auto;
+}
+
+.payment {
+  font-family: 'Red Hat Display', sans-serif;
+  color: white;
+  background-color: hsl(245, 75%, 52%);
+  padding: 4% 0;
+  width: 100%;
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: 1rem;
+  box-shadow: 1px 20px 30px 1px hsl(227, 26%, 83%);
+  transition: 0.8s;
+}
+
+.cancel {
+  padding: 8% 0;
+  text-align: center;
+}
+.cancel a {
+  text-decoration: none;
+  font-weight: 700;
+  color: hsl(224, 23%, 55%);
+  transition: 0.8s;
+}
+
+.attribution {
+  font-size: 11px;
+  margin-top: 5px;
+}
+
+/*Interactive*/
+.change-link a:hover {
+  text-decoration: none;
+  color: hsl(224, 23%, 55%);
+}
+
+.payment:hover {
+  cursor: pointer;
+  background-color: hsl(224, 23%, 55%);
+}
+
+.cancel a:hover {
+  color: hsl(223, 47%, 23%);
+}

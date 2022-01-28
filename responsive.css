@@ -1,0 +1,22 @@
+@media (min-width: 1440px) {
+  body {
+    height: auto;
+    padding: 5% 5%;
+    background-image: url(images/pattern-background-desktop.svg);
+  }
+
+  .card-container {
+    width: 35%;
+  }
+
+  .annual-price {
+    display: block;
+    margin-top: 2px;
+  }
+  
+  main {
+    padding: 4% 5%;
+    display: flex;
+    justify-content: space-between;
+  }
+}
